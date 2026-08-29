@@ -1,0 +1,4 @@
+html{overflow-x:hidden}
+@media(max-width:680px){body{border-width:5px;padding:15px}main{grid-template-columns:1fr;align-items:start}.right{gap:22px}h1{font-size:clamp(4rem,26vw,7rem)}.timer{grid-template-columns:repeat(4,1fr);gap:4px}.timer div{border-width:3px;padding:6px}.timer b{font-size:clamp(1.4rem,10vw,3rem)}.right a{width:100%}}
+@media(max-height:430px) and (orientation:landscape){main{grid-template-columns:1fr 1fr}h1{font-size:4rem}.right{gap:10px}.timer b{font-size:2rem}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
